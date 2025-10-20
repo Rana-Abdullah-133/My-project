@@ -1,0 +1,210 @@
+ body {
+  color: white;
+  margin: 0;
+  padding: 0;
+background: #252563;
+background: linear-gradient(90deg, rgba(37, 37, 99, 1) 0%, rgba(6, 6, 18, 1) 100%, rgba(0, 212, 255, 1) 100%);
+ }
+ .search{
+     display: flex;
+    align-items: center;
+   }
+   button {
+    background-color: rgb(55, 11, 218);
+    color: white;
+   }
+   #border {
+    align-items: center;
+    list-style-type:none;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    margin: 0 ;
+    padding: 0;
+   }
+    #border a{
+      font-weight: bold;
+      font-size: 25px;
+      font-family: sans-serif;
+       margin-left: 20px;
+    color: rgb(55, 11, 218);
+    text-decoration:none;
+   }
+   a:hover{
+    background-color: rgb(24, 38, 233);
+    padding: 2px;
+   }
+   .name{
+    color: #FFD700;
+   }
+  #home {
+ /* ye zaroori ha */
+  display: flex;
+  align-items: center;
+text-align: center;
+font-size: 30px;
+padding: 20PX;
+  justify-content: space-between; /* text left, image right */
+  height: 100vh;
+  color: white;
+  font-family: serif;
+}
+#home img {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  border: 2px solid rgb(12, 8, 8);
+  object-fit: cover; /* image bilkul clear aur round hogi */
+}
+   .About-section{/* ya sara About shuru ho rha ha */
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+   } 
+  #About p {
+      color: white;
+    margin: auto;
+    width: 50%;
+     text-align: center;
+    font-family: serif;
+    font-size: 30px;
+    }
+    #About h1{
+       font-size: 50px;
+    color: #00FFFF;
+     margin: 20px; 
+     text-align: center;
+    }
+    .Education{
+      flex-basis: 50%;
+      display: inline-block;
+
+    }
+    .Education ul li{
+      font-size: 25px;
+ font-family: serif;
+      list-style-type: square;
+      padding: 10px;
+      color: white;
+    }
+.experience{
+  font-family: sans-serif;
+      flex-basis: 50%;
+      margin-top: 0px;
+
+     }
+    /*yaha par About khtm ho rha ha */
+   #Skill{
+    height: 100vh;
+   }
+   .skill-container{
+    display: flex;
+    flex-wrap: wrap;
+ color: #00FFFF;
+    text-align: center;
+    justify-content:space-evenly;
+   }
+  .skill-card{
+  flex-basis: 30%;
+  font-weight: bold;
+  padding-top: 20px;
+  border: 1px solid rgb(47, 35, 116);
+margin-top: 20px;;
+font-size: 30px;
+  }
+  .skill-card:hover{
+    border-radius: 10%;
+ background-color: rgb(39, 39, 128);
+  color: #00FFFF;
+  cursor: pointer;
+  }
+  img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+  }/*project start*/
+   #projects {
+  padding-top: 80px;
+    height: 100vh;
+   }
+   .project-container{
+   display: flex;
+    flex-wrap: wrap;
+ color: #00FFFF;
+    text-align: center;
+    justify-content:space-evenly;
+   
+   }
+   .project-card{
+   flex-basis: 30%;
+   border: 1px solid rgb(47, 35, 116);
+  font-weight: bold;
+margin-top: 20px;
+padding-top: 20px;
+font-size: 30px;
+   }
+    .project-card:hover{
+    border-radius: 10%;
+ background-color: rgb(39, 39, 128);
+  color: #00FFFF;
+  cursor: pointer;
+  }
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  /* ya samjh nhi aya */
+   }
+   #contact{
+    display: flex;
+   text-align: right;
+    height: 100vh;
+   }
+   #contact .text-contact{
+width: 50%;
+margin-top: 13%;
+height: 40%;
+ padding-top: 3%;
+   }
+   .text-contact h1,p{
+    color:white;
+text-align: center;
+font-size: 30px;
+align-items: center;
+   }
+   .text-contact h1{
+    color: BLUE;
+     color: #00FFFF;
+     padding-bottom: 5px;
+     font-size: 50px;
+   }
+    .contact-class{
+          text-align: right;
+color: #FFFFFF;
+    font-size: 25px;
+    text-align: center;
+  height: 90%;
+  width: 40%;
+    display: inline-block;
+background-color: rgba(0, 0, 0, 0.4);
+    margin: 50px 20px;
+    margin-left: auto;
+   }
+   .contact-class input,.contact-class textarea{
+    margin-top:15px;
+ width: 60%;
+ height: 20%;
+ padding: 5px;
+   }
+   .contact-class button{
+    margin-top: 15px;
+      padding: 1%;
+    background-color: #4A90E2;
+    width: 20%;
+   }
+   footer{
+   
+    background-color: black;
+
+   }
+   
